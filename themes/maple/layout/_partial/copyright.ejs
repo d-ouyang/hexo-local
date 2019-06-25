@@ -1,0 +1,20 @@
+        <div style="color:#fff" id="copyright">
+            <ul style="font-size:16px;">
+                <li style="margin-bottom:10px">沪ICP备 16019295号
+                    <script type="text/javascript">
+                        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                        document.write(unescape("%3Cspan style='display:inline-block;width:50px;height:12px;margin-left:10px;' id='cnzz_stat_icon_1263536496'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1263536496%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+                    </script>
+                </li>
+                <br />
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">mapleparking.com</a></li>
+                <li>Design: <a href="https://d-ouyang.github.io " style="border-bottom: none;">FTFE</a></li>
+            </ul>
+            <% if(theme.busuanzi.enable === true ) { %>
+            	<span id="busuanzi_container_site_pv"><%- date(Date.now(), 'YYYY') %>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			<% } else { %>
+                <!--  
+				<span id="busuanzi_container_site_pv"> <%- date(Date.now(), 'YYYY') %> </span> 
+                -->
+			<% } %>
+        </div>

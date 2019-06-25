@@ -1,0 +1,130 @@
+@import url(font-awesome.min.css);
+@import url("https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css");
+
+body {
+	height: 100%;
+}
+body {
+	font-size: 16px;
+	line-height: 1.50;
+	color: #333333;
+	background-color: #ffffff;
+	position: relative;
+}
+.large{
+	font-size: 18px;
+}
+h1 {
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+}
+h5 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h6 {
+	font-weight: 700;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span {
+	color: #339BEB;
+}
+.text-colored {
+	color: #961E23;
+}
+a {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #961E23;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+a,a:hover,a:focus,a:active{
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	vertical-align: middle;
+}
+.image-box{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.overlay-container{
+	position: relative;
+	width: 100%;
+	/*background-color: #339BEB;*/
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #339BEB;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+
+.overlay-container:hover .overlay{
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.overlay span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -8px;
+	margin-top: -8px;
+}
+
+.image-box img{
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 5px;
+	transition: all 0.3s ease-in-out;
+}
+.java,.ios,.android{
+	background-color: #999;
+}
+.java:hover,.ios:hover,.android:hover{
+	background-color: #339BEB;
+}
+#join{
+	font-size: 18px;
+	padding: 0 15px;
+}
+#join p{
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#join p:last-child{
+	font-size: 14px;
+}
